@@ -16,12 +16,12 @@ if you are taking the course :-D For all other purposes, my files are under the 
 3. Once it's finalized installing, do:
 	* `$ sudo apt-get update`
 	* `$ sudo apt-get upgrade`
-4. Set up the git repository with SSH key access.
-        * `$ sudo apt-get install git`
-        * Read [https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account](https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account)
-        * `$ git clone git@gitlab.com:zubie7a/Spark_And_Python_For_Big_Data`
-        * `$ git config --global user.name 'Santiago Zubieta'`
-        * `$ git config --global user.email 'santiago.zubieta@gmail.com'`
+4. Set up the git repository with SSH key access:
+       * `$ sudo apt-get install git`
+       * Read [https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account](https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account)
+       * `$ git clone git@gitlab.com:zubie7a/Spark_And_Python_For_Big_Data`
+       * `$ git config --global user.name 'Santiago Zubieta'`
+       * `$ git config --global user.email 'santiago.zubieta@gmail.com'`
 4. In top-bar select "Insert Guest Additions CD Image"
 5. Install, then make **Shared Clipboard** and **Drag and Drop** be **bidirectional**.
 6. Create a Shared Folder for ease of file transfer.
