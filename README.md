@@ -16,6 +16,9 @@ if you are taking the course :-D For all other purposes, my files are under the 
 3. Once it's finalized installing, do  
 	* `$ sudo apt-get update`
 	* `$ sudo apt-get upgrade`
+        * `$ sudo apt-get install git`
+        * `$ git config --global user.name 'Santiago Zubieta'`
+        * `$ git config --global user.email 'santiago.zubieta@gmail.com'`
 4. In top-bar select "Insert Guest Additions CD Image"
 5. Install, then make **Shared Clipboard** and **Drag and Drop** be **bidirectional**.
 6. Create a Shared Folder for ease of file transfer.
@@ -62,11 +65,14 @@ if you are taking the course :-D For all other purposes, my files are under the 
 17. Open a notebook with `$ jupyter notebook`
 18. Create a new Jupyter Notebook:
     * ![/Resources/Images/Jupyter_Create_Notebook.png](https://i.imgur.com/ZwrexH1.png "")
-19. Try importing pyspark inside the notebook: `import pyspark`
-    a. If doesn't work you need to be inside `spark-2.3.1-bin-hadoop2.7/python/`
-    b. Else, you need FindSpark to be able to import Spark from elsewhere.
-    c. Install FindSpark `$ pip3 install findspark --user`
-    d. To find spark, do this in the Python notebooks:
+19. Try importing pyspark inside the notebook:
+    * `import pyspark`
+    * If doesn't work you need to be inside:
+	*`spark-2.3.1-bin-hadoop2.7/python/`
+    * Else, you need FindSpark to be able to import Spark from elsewhere.
+    * Install FindSpark:
+	* `$ pip3 install findspark --user`
+    * To find spark, do this in the Python notebooks:
         * ```python
             import findspark
             findspark.init('/home/zubieta/spark-2.3.1-bin-hadoop2.7')
