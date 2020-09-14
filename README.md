@@ -8,7 +8,11 @@ Please respect the Honor Code by not copying these solutions. These files are as
 
 For all other purposes, files created by myself are under the **MIT License**.
 
-## Apache Spark Setup in Ubuntu VM:
+## Apache Spark Setup in Mac OS
+
+`TODO: Put the instructions here`
+
+## Apache Spark Setup in Ubuntu VM
 
 1. Install Virtual Box.
 2. Get .iso for `ubuntu-18.04.1-desktop-amd64`, it is the LTS version.
